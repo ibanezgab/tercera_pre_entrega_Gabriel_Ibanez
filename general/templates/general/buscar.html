@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Agregar Curso
+        -Busqueda de cursos
+        S
+    </title>
+</head>
+<body>
+
+    <p>Estamos buscando los Empleados del area:{{area}}</p>
+
+    <li>id - area - puesto - dependientes </li>
+    {%if areas %}
+
+    <u1>
+    {%for area in areas %}
+        
+        <li>{{area.id}} {{area.puesto}} {{area.dependientes}}</li>
+        
+    {%endfor%}
+
+</u1>
+
+{% endif %}
+
+</form>
+</body>
+</html>
+    
+<table>
+
+
+
